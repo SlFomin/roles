@@ -3,9 +3,9 @@
 namespace SlFomin\Roles\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Ultraware\Roles\Contracts\PermissionHasRelations as PermissionHasRelationsContract;
-use Ultraware\Roles\Traits\PermissionHasRelations;
-use Ultraware\Roles\Traits\Slugable;
+use SlFomin\Roles\Contracts\PermissionHasRelations as PermissionHasRelationsContract;
+use SlFomin\Roles\Traits\PermissionHasRelations;
+use SlFomin\Roles\Traits\Slugable;
 
 class Permission extends Model implements PermissionHasRelationsContract
 {

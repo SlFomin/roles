@@ -5,7 +5,7 @@ namespace SlFomin\Roles\Middleware;
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Http\Request;
-use Ultraware\Roles\Exceptions\RoleDeniedException;
+use SlFomin\Roles\Exceptions\RoleDeniedException;
 
 class VerifyRole
 {

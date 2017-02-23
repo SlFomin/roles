@@ -5,7 +5,7 @@ namespace SlFomin\Roles\Middleware;
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Http\Request;
-use Ultraware\Roles\Exceptions\PermissionDeniedException;
+use SlFomin\Roles\Exceptions\PermissionDeniedException;
 
 class VerifyPermission
 {
@@ -31,7 +31,7 @@ class VerifyPermission
      * @param \Closure $next
      * @param int|string $permission
      * @return mixed
-     * @throws \Ultraware\Roles\Exceptions\PermissionDeniedException
+     * @throws \SlFomin\Roles\Exceptions\PermissionDeniedException
      */
     public function handle($request, Closure $next, $permission)
     {

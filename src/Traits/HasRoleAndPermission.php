@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use Ultraware\Roles\Models\Permission;
-use Ultraware\Roles\Models\Role;
+use SlFomin\Roles\Models\Permission;
+use SlFomin\Roles\Models\Role;
 
 trait HasRoleAndPermission
 {
@@ -159,7 +159,7 @@ trait HasRoleAndPermission
     /**
      * Sync roles for a user.
      *
-     * @param array|\Ultraware\Roles\Models\Role[]|\Illuminate\Database\Eloquent\Collection $roles
+     * @param array|\SlFomin\Roles\Models\Role[]|\Illuminate\Database\Eloquent\Collection $roles
      * @return array
      */
     public function syncRoles($roles)
@@ -358,7 +358,7 @@ trait HasRoleAndPermission
     /**
      * Sync permissions for a user.
      *
-     * @param array|\Ultraware\Roles\Models\Permission[]|\Illuminate\Database\Eloquent\Collection $permissions
+     * @param array|\SlFomin\Roles\Models\Permission[]|\Illuminate\Database\Eloquent\Collection $permissions
      * @return array
      */
     public function syncPermissions($permissions)

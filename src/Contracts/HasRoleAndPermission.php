@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Ultraware\Roles\Models\Permission;
-use Ultraware\Roles\Models\Role;
+use SlFomin\Roles\Models\Permission;
+use SlFomin\Roles\Models\Role;
 
 interface HasRoleAndPermission
 {

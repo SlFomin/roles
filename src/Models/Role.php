@@ -3,9 +3,9 @@
 namespace SlFomin\Roles\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Ultraware\Roles\Contracts\RoleHasRelations as RoleHasRelationsContract;
-use Ultraware\Roles\Traits\RoleHasRelations;
-use Ultraware\Roles\Traits\Slugable;
+use SlFomin\Roles\Contracts\RoleHasRelations as RoleHasRelationsContract;
+use SlFomin\Roles\Traits\RoleHasRelations;
+use SlFomin\Roles\Traits\Slugable;
 
 class Role extends Model implements RoleHasRelationsContract
 {
